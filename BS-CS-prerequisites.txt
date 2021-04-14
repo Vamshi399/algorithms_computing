@@ -1,0 +1,50 @@
+13 13
+0  3  1
+0  4  1
+0  6  1
+1  2  1
+2  3  1
+2  4  1
+2  6  1
+3  8  1
+4  5  1
+4  10  1
+5  7  1
+5  9  1
+11 12  1
+
+
+
+Pace University BS-CS Curriculum Prerequisite Relations
+
+Encoding
+
+0 CS113      Discrete Math
+1 CS121      Java I
+2 CS122      Java II
+3 CS232      Computer Organization
+4 CS241      Data Structure and Algorithms
+5 CS242      Algorithms & Computing Theory
+6 CS271      Unix & C
+7 CS361      Programming Languages and Implementation
+8 CS371      Operating Systems & Architecture
+9 CS389      Software Engineering
+10 CS488     Computer Networks & the Internet
+11 MAT134    Introduction to Probability and Statistics   
+12 CS312     Research Methods in Computers
+
+Dependency
+
+CS113 -> CS232
+CS113 -> CS241
+CS113 -> CS271
+CS121 -> CS122
+CS122 -> CS232
+CS122 -> CS241
+CS122 -> CS271
+CS232 -> CS371
+CS241 -> CS242
+CS241 -> CS488
+CS242 -> CS362
+CS242 -> CS389
+MAT134 -> CS312
